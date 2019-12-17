@@ -1,0 +1,16 @@
+{
+	"引入某个模块暴露的变量": {
+		"prefix": "my-import-variable",
+		"body": [
+			"import { $2 } from '$1'"
+		],
+		"description": "引入某个模块暴露的变量"
+	},
+	"引入api模块": {
+		"prefix": "my-import-api",
+		"body": [
+			"import api from '$1'"
+		],
+		"description": "引入api模块"
+	}
+}
